@@ -1,5 +1,5 @@
 function saludarFamilia(apellido) {
-  return function saludarMienbroDeFamilia(nombre) {
+  return function saludarMiembroDeFamilia(nombre) {
     console.log(`Hola ${nombre} ${apellido}`);
   }
 }
